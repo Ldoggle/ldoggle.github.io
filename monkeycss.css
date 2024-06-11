@@ -1,0 +1,163 @@
+.balls{
+    color:black;
+    background-image: linear-gradient(to right,#9A01E1, green);
+}
+.body2{
+  background-image: linear-gradient(to right, #00FF9B, #E20527)
+  
+}
+ul {
+    list-style-type: none;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    background-color: gold;
+    border: black;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+li {
+    display:inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+li a {
+display: inline;
+  color: black;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-size: 50px;
+  color: #E3BBBA;
+  text-align: center;
+}
+b1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+b2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+b3 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+.fortnite {
+  justify-content: center;
+  text-align: center;
+}
+.btn_grp{
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.btn_grp button{
+  width: 20%;
+  height: 125px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 5px;
+  margin: 10px;
+}
+
+.btn_grp:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.btn_grp button:hover{
+  color:white;
+  background-color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.5s;
+}
+
+.bagels{
+  background-image: url(bagels.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.blackjack {
+  background-image: url(blackjack.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.netlogo {
+  background-image: url(netlogo.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.body3 {
+  background-image: linear-gradient(to right, #ebb014, black)
+}
+
+.bagelimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.kingdog {
+  color: darkred;
+  text-align: center;
+}
+
+.kingdog2 {
+  color: black;
+  text-align: center;
+}
+
+.body4 {
+  background-image: linear-gradient(to right, #4e6bb1, #ff4c00)
+
+}
+
+.erm {
+  background-image: linear-gradient(to right, #71a956, #e11ebb)
+
+}
+
+.guitar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  transform: rotate(90deg);
+  margin-top: auto;
+}
+
+.body5 {
+  background-image: linear-gradient(to right, #ff0b00, #da00ff)
+}
+
+.kingdoga {
+  color: black;
+}
