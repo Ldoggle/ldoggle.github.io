@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<link rel="stylesheet" href="monkeycss.css">
+<body class="body2">
+<div class="navbar">
+    <ul>
+        <li><a href="protmonkey.html">Home</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</div>
+
+<div class= btn_grp>
+    <button class = "bagels" id="test">bagels</button>
+    <button class = "blackjack" id="king">Text-based Blackjack</button>
+    <button class = "netlogo" id="gerome">Netlogo</button>
+</div>
+<script>
+
+    function myFunction() {
+        location.href = "bagels.html";
+    }
+    function myFunctions() {
+        location.href = "blackjack.html";
+    }
+    function myFunctionsd() {
+        location.href = "netlogo.html";
+    }
+
+    document.getElementById("test").onclick = function() {myFunction()};
+    document.getElementById("king").onclick = function() {myFunctions()};
+    document.getElementById("gerome").onclick = function() {myFunctionsd()};
+
+</script>
+</body>
+
+
+
+</html>
